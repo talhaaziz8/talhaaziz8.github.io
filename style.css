@@ -1,0 +1,24 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  letter-spacing: 1px;
+}
+
+a:hover {
+  transition: color 0.3s;
+  color: #fbbf24;
+}
+
+.bg-blue-600 {
+  background-color: #2563eb;
+}
+
+.bg-yellow-500 {
+  background-color: #fbbf24;
+}
+
+footer a:hover {
+  color: #fbbf24;
+}
