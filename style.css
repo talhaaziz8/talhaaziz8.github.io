@@ -22,3 +22,9 @@ a:hover {
 footer a:hover {
   color: #fbbf24;
 }
+
+/* Hover effect for certificate images */
+#certificates img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
