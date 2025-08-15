@@ -3,79 +3,152 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Talha Aziz - DevOps Portfolio</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
-    header { background: #1b1b1b; color: #fff; padding: 40px 20px; text-align: center; }
-    header h1 { margin: 0; font-size: 2.5em; }
-    header p { font-size: 1.2em; margin-top: 10px; }
-    nav { text-align: center; background: #333; }
-    nav a { color: #fff; margin: 0 15px; text-decoration: none; padding: 15px 0; display: inline-block; }
-    nav a:hover { background: #555; border-radius: 5px; }
-    section { max-width: 900px; margin: 40px auto; padding: 0 20px; }
-    h2 { border-bottom: 2px solid #333; padding-bottom: 5px; margin-bottom: 20px; }
-    ul { list-style: none; padding-left: 0; }
-    li { margin-bottom: 10px; }
-    .project { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
-    footer { background: #1b1b1b; color: #fff; text-align: center; padding: 20px; margin-top: 40px; }
-    a.contact-link { color: #1e90ff; text-decoration: none; }
-  </style>
+  <meta name="description" content="DevOps Engineer Portfolio - Talha Aziz">
+  <title>Talha Aziz | DevOps Engineer</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="bg-gray-100 font-roboto">
 
-  <header>
-    <h1>Talha Aziz</h1>
-    <p>DevOps Engineer | Cloud | Kubernetes | Terraform | CI/CD | Monitoring</p>
-  </header>
-
-  <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
+  <!-- Navigation Bar -->
+  <nav class="bg-blue-600 p-4 text-white">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Talha Aziz</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#about" class="hover:text-gray-200">About</a></li>
+        <li><a href="#education" class="hover:text-gray-200">Education</a></li>
+        <li><a href="#skills" class="hover:text-gray-200">Skills</a></li>
+        <li><a href="#projects" class="hover:text-gray-200">Projects</a></li>
+        <li><a href="#certificates" class="hover:text-gray-200">Certificates</a></li>
+        <li><a href="#contact" class="hover:text-gray-200">Contact</a></li>
+      </ul>
+    </div>
   </nav>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I completed my internship at <strong>Al Nafi International College (May 2024 - Apr 2025)</strong>, focusing on hands-on DevOps, Cloud, and AIOps projects. I have experience deploying applications using Docker, Kubernetes, Terraform, Jenkins CI/CD pipelines, Prometheus & Grafana monitoring, and Linux server administration.</p>
-  </section>
-
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Docker, Kubernetes, Terraform</li>
-      <li>Prometheus & Grafana Monitoring</li>
-      <li>CI/CD with Jenkins & GitHub Actions</li>
-      <li>Linux Administration (Ubuntu, RedHat, Amazon Linux)</li>
-      <li>Automation with Ansible & Terraform</li>
-      <li>Basic Python, Data Science, and Cybersecurity fundamentals</li>
-    </ul>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Retail Store Sample App</h3>
-      <p>Microservices deployed on AWS EKS using Terraform, GitHub Actions CI/CD, and Argo CD GitOps.</p>
-    </div>
-    <div class="project">
-      <h3>Banking Application</h3>
-      <p>Deployed on EKS Cluster with Kubernetes, Argo CD, Prometheus, and Grafana monitoring.</p>
-    </div>
-    <div class="project">
-      <h3>3-Tier E-commerce Application</h3>
-      <p>React, Node.js, MongoDB deployed using Docker Compose. Focused on automation and scalable deployment.</p>
+  <!-- Hero Section -->
+  <section class="bg-blue-600 text-white text-center py-20">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-4xl font-bold">DevOps Engineer</h2>
+      <p class="mt-4 text-lg">Passionate about automating infrastructure, scaling solutions, and driving operational efficiency in cloud-native environments.</p>
+      <div class="mt-8">
+        <a href="mailto:aziz81812@gmail.com" class="bg-yellow-500 text-blue-800 py-2 px-6 rounded-full text-lg hover:bg-yellow-400">Contact Me</a>
+      </div>
     </div>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Feel free to reach out via email: <a class="contact-link" href="mailto:talha@example.com">talha@example.com</a></p>
-    <p>GitHub: <a class="contact-link" href="https://github.com/talhaaziz8" target="_blank">github.com/talhaaziz8</a></p>
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto text-center">
+      <h3 class="text-3xl font-bold">About Me</h3>
+      <p class="mt-4 text-xl">I’m Talha Aziz, a DevOps Engineer with hands-on experience in cloud technologies, automation, and scalability. Internship at Al Nafi International College (May 2024 - Apr 2025) focusing on DevOps, Cloud, and AIOps solutions.</p>
+    </div>
   </section>
 
-  <footer>
-    &copy; 2025 Talha Aziz. All rights reserved.
+  <!-- Education Section -->
+  <section id="education" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto text-center">
+      <h3 class="text-3xl font-bold">Education</h3>
+      <ul class="mt-6 text-xl space-y-4">
+        <li><strong>Diploma in AIOps</strong> – Al Nafi International College (May 2024 - Apr 2025)<br>Sub-diplomas: Cloud, Cybersecurity, SysOps, DevOps, Cloud & AI</li>
+        <li><strong>Diploma in DevOps & Cloud</strong> – Train With Shubham</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="bg-gray-100 py-20">
+    <div class="max-w-7xl mx-auto text-center">
+      <h3 class="text-3xl font-bold">Technical Skills</h3>
+      <div class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <h4 class="text-xl font-semibold">Container Technologies</h4>
+          <p class="mt-2">Docker, Kubernetes</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <h4 class="text-xl font-semibold">Infrastructure as Code</h4>
+          <p class="mt-2">Terraform</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <h4 class="text-xl font-semibold">CI/CD</h4>
+          <p class="mt-2">Jenkins, GitHub Actions</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <h4 class="text-xl font-semibold">Monitoring</h4>
+          <p class="mt-2">Prometheus, Grafana</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <h4 class="text-xl font-semibold">Automation</h4>
+          <p class="mt-2">Ansible, Terraform</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <h4 class="text-xl font-semibold">Programming & Basics</h4>
+          <p class="mt-2">Python, Linux Administration, Cybersecurity Fundamentals, Data Science Fundamentals</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto text-center">
+      <h3 class="text-3xl font-bold">Projects</h3>
+      <div class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-gray-100 p-6 rounded-xl hover:shadow-xl transition-shadow duration-300">
+          <img src="assets/images/project1.jpg" alt="Project 1" class="w-full h-40 object-cover rounded-md">
+          <h4 class="mt-4 text-xl font-semibold">Retail Store Sample App</h4>
+          <p class="mt-2">AWS EKS, Terraform, GitHub Actions, Argo CD for scalable architecture.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl hover:shadow-xl transition-shadow duration-300">
+          <img src="assets/images/project2.jpg" alt="Project 2" class="w-full h-40 object-cover rounded-md">
+          <h4 class="mt-4 text-xl font-semibold">Banking Application</h4>
+          <p class="mt-2">Kubernetes, Argo CD, Prometheus, Grafana for monitoring and reliability.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl hover:shadow-xl transition-shadow duration-300">
+          <img src="assets/images/project3.jpg" alt="Project 3" class="w-full h-40 object-cover rounded-md">
+          <h4 class="mt-4 text-xl font-semibold">3-Tier E-commerce App</h4>
+          <p class="mt-2">React, Node.js, MongoDB, Docker Compose for full-stack solution.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto text-center">
+      <h3 class="text-3xl font-bold">Certificates</h3>
+      <div class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-gray-100 p-6 rounded-xl">
+          <img src="assets/images/cert1.jpg" alt="Diploma in AIOps" class="w-full h-40 object-cover rounded-md">
+          <p class="mt-2">Diploma in AIOps – Al Nafi International College</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl">
+          <img src="assets/images/cert2.jpg" alt="Diploma in DevOps & Cloud" class="w-full h-40 object-cover rounded-md">
+          <p class="mt-2">Diploma in DevOps & Cloud – Train With Shubham</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-blue-600 text-white">
+    <div class="max-w-7xl mx-auto text-center">
+      <h3 class="text-3xl font-bold">Contact Me</h3>
+      <p class="mt-4 text-lg">Feel free to get in touch for collaboration or job opportunities!</p>
+      <div class="mt-8">
+        <a href="mailto:aziz81812@gmail.com" class="bg-yellow-500 py-2 px-6 rounded-full text-lg hover:bg-yellow-400">Email Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p>&copy; 2025 Talha Aziz. All Rights Reserved.</p>
+    <div class="mt-4">
+      <a href="https://www.linkedin.com/in/talha-aziz-devops" class="hover:text-yellow-500 mx-2">LinkedIn</a>
+      <a href="https://github.com/talhaaziz8" class="hover:text-yellow-500 mx-2">GitHub</a>
+    </div>
   </footer>
 
 </body>
