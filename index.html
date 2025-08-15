@@ -1,224 +1,82 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Talha Aziz | DevOps Engineer</title>
-  <meta name="description" content="Portfolio of Talha Aziz — DevOps engineer specializing in Docker, Kubernetes, Terraform, Prometheus, Grafana, CI/CD with Jenkins, GitHub Actions, and Linux." />
-  <link rel="canonical" href="https://buildwithtalha.pro/" />
-  <meta property="og:title" content="Talha Aziz | DevOps Engineer" />
-  <meta property="og:description" content="Cloud-native DevOps projects: Kubernetes on EKS, Terraform IaC, GitOps with Argo CD, monitoring with Prometheus & Grafana." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://buildwithtalha.pro/" />
-  <meta name="theme-color" content="#0ea5e9" />
-  <link rel="preload" href="styles.css" as="style" />
-  <link rel="stylesheet" href="styles.css" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Talha Aziz",
-    "url": "https://buildwithtalha.pro/",
-    "jobTitle": "DevOps Engineer",
-    "sameAs": [
-      "https://github.com/your-github-username",
-      "https://www.linkedin.com/in/your-linkedin-username"
-    ],
-    "knowsAbout": ["DevOps", "Docker", "Kubernetes", "Terraform", "Prometheus", "Grafana", "Jenkins", "Linux", "AWS", "GitOps", "Ansible", "Python", "Cybersecurity"]
-  }
-  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Talha Aziz - DevOps Portfolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+    header { background: #1b1b1b; color: #fff; padding: 40px 20px; text-align: center; }
+    header h1 { margin: 0; font-size: 2.5em; }
+    header p { font-size: 1.2em; margin-top: 10px; }
+    nav { text-align: center; background: #333; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; padding: 15px 0; display: inline-block; }
+    nav a:hover { background: #555; border-radius: 5px; }
+    section { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+    h2 { border-bottom: 2px solid #333; padding-bottom: 5px; margin-bottom: 20px; }
+    ul { list-style: none; padding-left: 0; }
+    li { margin-bottom: 10px; }
+    .project { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    footer { background: #1b1b1b; color: #fff; text-align: center; padding: 20px; margin-top: 40px; }
+    a.contact-link { color: #1e90ff; text-decoration: none; }
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav">
-      <a class="brand" href="#home">buildwithtalha.pro</a>
-      <button id="menuBtn" class="menu-btn" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-      <nav id="siteNav" class="site-nav" aria-label="Main">
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#foundations">Foundations</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
+
+  <header>
+    <h1>Talha Aziz</h1>
+    <p>DevOps Engineer | Cloud | Kubernetes | Terraform | CI/CD | Monitoring</p>
   </header>
 
-  <main id="home">
-    <section class="hero container">
-      <div class="hero-text">
-        <h1>Talha Aziz</h1>
-        <p class="tagline">DevOps Engineer — Kubernetes • Terraform • CI/CD • Monitoring</p>
-        <p class="sub">I design and automate cloud-native platforms using Docker, Kubernetes, Terraform, and GitOps. I care about reliability, repeatability, and clean automation.</p>
-        <div class="cta">
-          <a class="btn" href="mailto:hello@buildwithtalha.pro">Contact Me</a>
-          <a class="btn ghost" href="https://github.com/your-github-username" target="_blank" rel="noopener">GitHub</a>
-        </div>
-      </div>
-      <div class="hero-aside">
-        <div class="card quick-facts">
-          <h3>Quick Facts</h3>
-          <ul>
-            <li>Location: United Arab Emirates</li>
-            <li>Focus: DevOps • Cloud • AIOps</li>
-            <li>Looking for: Junior DevOps / Cloud roles</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <section id="projects" class="container">
-      <h2>Featured Projects</h2>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I completed my internship at <strong>Al Nafi International College (May 2024 - Apr 2025)</strong>, focusing on hands-on DevOps, Cloud, and AIOps projects. I have experience deploying applications using Docker, Kubernetes, Terraform, Jenkins CI/CD pipelines, Prometheus & Grafana monitoring, and Linux server administration.</p>
+  </section>
 
-      <article class="card project">
-        <div class="project-head">
-          <h3>Retail Store Microservices on AWS EKS</h3>
-          <div class="badges">
-            <span>Terraform</span><span>AWS</span><span>EKS</span><span>GitHub Actions</span><span>Argo CD</span><span>GitOps</span>
-          </div>
-        </div>
-        <p>
-          Provisioned EKS and networking via Terraform. Built pipelines in GitHub Actions to lint, test, and build images.
-          Delivery automated through Argo CD using GitOps (pull model) for safe, repeatable deployments.
-        </p>
-        <ul class="bullets">
-          <li>Modular Terraform with state isolation (network, cluster, apps)</li>
-          <li>Blue/green promotion via Argo CD ApplicationSets</li>
-          <li>Image scanning step before deployment</li>
-        </ul>
-        <div class="links">
-          <a href="#" aria-disabled="true">Code (private/coming soon)</a>
-        </div>
-      </article>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Docker, Kubernetes, Terraform</li>
+      <li>Prometheus & Grafana Monitoring</li>
+      <li>CI/CD with Jenkins & GitHub Actions</li>
+      <li>Linux Administration (Ubuntu, RedHat, Amazon Linux)</li>
+      <li>Automation with Ansible & Terraform</li>
+      <li>Basic Python, Data Science, and Cybersecurity fundamentals</li>
+    </ul>
+  </section>
 
-      <article class="card project">
-        <div class="project-head">
-          <h3>Banking App on EKS with Observability</h3>
-          <div class="badges">
-            <span>Kubernetes</span><span>Argo CD</span><span>Prometheus</span><span>Grafana</span><span>Alertmanager</span>
-          </div>
-        </div>
-        <p>
-          Deployed a banking application to a Kubernetes cluster and integrated full observability. Dashboards and alerts
-          provide service-level visibility and actionable insights.
-        </p>
-        <ul class="bullets">
-          <li>Prometheus scrape configs + recording rules for SLIs</li>
-          <li>Grafana dashboards for API latency and error rates</li>
-          <li>Alertmanager routes for critical services</li>
-        </ul>
-        <div class="links">
-          <a href="#" aria-disabled="true">Code (private/coming soon)</a>
-        </div>
-      </article>
-
-      <article class="card project">
-        <div class="project-head">
-          <h3>3‑Tier E‑commerce (React • Node.js • MongoDB)</h3>
-          <div class="badges">
-            <span>Docker</span><span>Docker Compose</span><span>Reverse Proxy</span>
-          </div>
-        </div>
-        <p>
-          Packaged frontend, backend, and database using Docker Compose for local reproducibility and team onboarding.
-        </p>
-        <ul class="bullets">
-          <li>Environment-specific Compose profiles (dev/test)</li>
-          <li>NGINX reverse proxy with health checks</li>
-          <li>Makefile targets for developer workflows</li>
-        </ul>
-        <div class="links">
-          <a href="#" aria-disabled="true">Code (private/coming soon)</a>
-        </div>
-      </article>
-
-      <article class="card project">
-        <div class="project-head">
-          <h3>Terraform + Ansible Automation (Multi‑OS)</h3>
-          <div class="badges">
-            <span>Terraform</span><span>Ansible</span><span>Ubuntu</span><span>Red Hat</span><span>Amazon Linux</span>
-          </div>
-        </div>
-        <p>
-          Provisioned infrastructure with Terraform and configured it using Ansible, including NGINX and Docker installation
-          with conditional tasks across distributions.
-        </p>
-        <ul class="bullets">
-          <li>Uses <code>when</code> conditionals and handlers per OS family</li>
-          <li>Idempotent roles for Docker &amp; NGINX</li>
-          <li>Hosts and inventory managed per environment</li>
-        </ul>
-        <div class="links">
-          <a href="#" aria-disabled="true">Code (private/coming soon)</a>
-        </div>
-      </article>
-    </section>
-
-    <section id="skills" class="container">
-      <h2>Skills</h2>
-      <div class="skills-grid">
-        <div class="skill"><strong>Containers & Orchestration</strong><br>Docker, Kubernetes, Argo CD</div>
-        <div class="skill"><strong>IaC</strong><br>Terraform, Ansible</div>
-        <div class="skill"><strong>CI/CD</strong><br>Jenkins, GitHub Actions</div>
-        <div class="skill"><strong>Monitoring</strong><br>Prometheus, Grafana</div>
-        <div class="skill"><strong>Cloud</strong><br>AWS (EKS, EC2, VPC, ALB)</div>
-        <div class="skill"><strong>OS & Scripting</strong><br>Linux (Ubuntu, RHEL, Amazon Linux), Bash, Python</div>
-        <div class="skill"><strong>Security</strong><br>DNS, HTTPS, IAM basics</div>
-      </div>
-    </section>
-
-    <section id="experience" class="container">
-      <h2>Experience</h2>
-      <article class="card">
-        <h3>Al Nafi International College — DevOps Intern <span class="muted">(May 2024 – Apr 2025)</span></h3>
-        <ul class="bullets">
-          <li>Implemented Kubernetes deployments and GitOps workflows with Argo CD</li>
-          <li>Provisioned AWS infrastructure using Terraform modules</li>
-          <li>Built CI/CD pipelines using Jenkins and GitHub Actions</li>
-          <li>Configured observability with Prometheus and Grafana</li>
-          <li>Practiced automation across Ubuntu, Red Hat, and Amazon Linux</li>
-        </ul>
-        <p class="note">Note: Internship experience focused on hands‑on labs, proof‑of‑concepts, and real‑world simulated environments.</p>
-      </article>
-    </section>
-
-    <section id="foundations" class="container">
-      <h2>Foundations</h2>
-      <div class="foundations">
-        <div class="card">
-          <h3>Cybersecurity</h3>
-          <p>Understanding of OWASP Top 10, basic threat modeling, and secure configuration practices.</p>
-        </div>
-        <div class="card">
-          <h3>Linux</h3>
-          <p>Daily driver: user/group management, networking tools, services, systemd, file permissions.</p>
-        </div>
-        <div class="card">
-          <h3>Python</h3>
-          <p>Automation scripts for CI tasks, log parsing, and API interactions.</p>
-        </div>
-        <div class="card">
-          <h3>Data Science</h3>
-          <p>Foundational knowledge of data handling and visualization for metrics-driven decisions.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="container">
-      <h2>Contact</h2>
-      <div class="card contact">
-        <p><strong>Email:</strong> <a href="mailto:hello@buildwithtalha.pro">hello@buildwithtalha.pro</a></p>
-        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" rel="noopener">linkedin.com/in/your-linkedin-username</a></p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/your-github-username" target="_blank" rel="noopener">github.com/your-github-username</a></p>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>© <span id="year"></span> Talha Aziz — buildwithtalha.pro</p>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Retail Store Sample App</h3>
+      <p>Microservices deployed on AWS EKS using Terraform, GitHub Actions CI/CD, and Argo CD GitOps.</p>
     </div>
+    <div class="project">
+      <h3>Banking Application</h3>
+      <p>Deployed on EKS Cluster with Kubernetes, Argo CD, Prometheus, and Grafana monitoring.</p>
+    </div>
+    <div class="project">
+      <h3>3-Tier E-commerce Application</h3>
+      <p>React, Node.js, MongoDB deployed using Docker Compose. Focused on automation and scalable deployment.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Feel free to reach out via email: <a class="contact-link" href="mailto:talha@example.com">talha@example.com</a></p>
+    <p>GitHub: <a class="contact-link" href="https://github.com/talhaaziz8" target="_blank">github.com/talhaaziz8</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Talha Aziz. All rights reserved.
   </footer>
 
-  <script defer src="script.js"></script>
 </body>
 </html>
