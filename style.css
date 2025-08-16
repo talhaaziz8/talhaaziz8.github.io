@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -6,11 +10,15 @@ h1, h2, h3, h4 {
   letter-spacing: 1px;
 }
 
+a {
+  transition: color 0.3s ease;
+}
+
 a:hover {
-  transition: color 0.3s;
   color: #fbbf24;
 }
 
+/* Keep palette helpers aligned with Tailwind */
 .bg-blue-600 {
   background-color: #2563eb;
 }
@@ -19,25 +27,42 @@ a:hover {
   background-color: #fbbf24;
 }
 
+/* Footer links */
+footer a {
+  transition: color 0.3s ease;
+}
+
 footer a:hover {
   color: #fbbf24;
 }
 
-/* Hover effect for certificate images */
+/* Certificates hover */
+#certificates img {
+  transition: transform 0.3s ease;
+}
+
 #certificates img:hover {
   transform: scale(1.05);
-  transition: transform 0.3s;
 }
-/* Profile picture styling */
+
+/* Hero image helpers */
 .bg-blue-600 img {
   object-fit: cover;
 }
-/* Hero section profile picture */
+
 .hero-profile-img {
-  width: 160px;         /* adjust size */
+  width: 160px;
   height: 160px;
-  border-radius: 50%;   /* makes it circular */
-  object-fit: cover;    /* crops if needed */
+  border-radius: 50%;
+  object-fit: cover;
   border: 4px solid white;
   box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* Reduced-motion support */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    scroll-behavior: auto;
+  }
 }
