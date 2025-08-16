@@ -1,16 +1,19 @@
+/* Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
+/* Body font */
 body {
   font-family: 'Roboto', sans-serif;
-  overflow-x: hidden; /* Fix white side scroll */
 }
 
+/* Headings spacing */
 h1, h2, h3, h4 {
   letter-spacing: 1px;
 }
 
+/* Links hover effect */
 a {
   transition: color 0.3s ease;
 }
@@ -28,7 +31,7 @@ footer a:hover {
   color: #fbbf24;
 }
 
-/* Certificates hover */
+/* Certificates hover effect */
 #certificates img {
   transition: transform 0.3s ease;
 }
@@ -47,19 +50,19 @@ footer a:hover {
   box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 
-/* Reduced-motion support */
+/* Project images hover effect */
+#projects img {
+  transition: transform 0.3s ease;
+}
+
+#projects img:hover {
+  transform: scale(1.05);
+}
+
+/* Reduced motion support */
 @media (prefers-reduced-motion: reduce) {
   * {
     transition: none !important;
     scroll-behavior: auto;
   }
 }
-/* Certificates hover zoom effect */
-#certificates img {
-  transition: transform 0.3s ease;
-}
-
-#certificates img:hover {
-  transform: scale(1.05);
-}
-
