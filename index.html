@@ -6,8 +6,21 @@
   <meta name="description" content="DevOps Engineer Portfolio - Talha Aziz">
   <title>Talha Aziz | DevOps Engineer</title>
   <!-- Tailwind CSS CDN -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            roboto: ['Roboto', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body class="bg-gray-100 font-roboto">
@@ -29,7 +42,7 @@
 
 <!-- Hero / Profile Section -->
 <section class="bg-blue-600 text-white text-center py-20 flex flex-col items-center">
-  <img src="assets/images/profile.jpg" alt="Talha Aziz" class="w-40 h-40 rounded-full border-4 border-white object-cover mb-6 shadow-lg">
+  <img src="assets/images/profile.jpg" alt="Talha Aziz" class="w-40 h-40 rounded-full border-4 border-white object-cover mb-6 shadow-lg" decoding="async" fetchpriority="high">
   <h1 class="text-4xl font-bold">Talha Aziz</h1>
   <h2 class="text-2xl mt-2">DevOps Engineer</h2>
   <p class="mt-4 text-lg max-w-xl">Passionate about automating infrastructure, scaling solutions, and driving operational efficiency in cloud-native environments.</p>
@@ -99,11 +112,11 @@
 
       <!-- Project 1: Retail Store Sample App -->
       <div class="bg-gray-100 p-6 rounded-xl hover:shadow-xl transition-shadow duration-300">
-        <img src="assets/images/project1.jpg" alt="Retail Store Sample App" class="w-full h-40 object-cover rounded-md">
+        <img src="assets/images/project1.jpg" alt="Retail Store Sample App" class="w-full h-40 object-cover rounded-md" loading="lazy" decoding="async">
         <h4 class="mt-4 text-xl font-semibold">Retail Store Sample App</h4>
         <p class="mt-2">Built with AWS EKS, Terraform, GitHub Actions, and Argo CD for scalable architecture and GitOps workflow.</p>
         <p class="mt-2 text-sm text-blue-600 hover:underline">
-          <a href="https://www.linkedin.com/posts/talha-aziz-devops_devops-aws-cloudcomputing-activity-7358900615005069312-xFo8" target="_blank">
+          <a href="https://www.linkedin.com/posts/talha-aziz-devops_devops-aws-cloudcomputing-activity-7358900615005069312-xFo8" target="_blank" rel="noopener noreferrer">
             View on LinkedIn
           </a>
         </p>
@@ -111,11 +124,11 @@
 
       <!-- Project 2: Banking Application -->
       <div class="bg-gray-100 p-6 rounded-xl hover:shadow-xl transition-shadow duration-300">
-        <img src="assets/images/project2.jpg" alt="Banking Application" class="w-full h-40 object-cover rounded-md">
+        <img src="assets/images/project2.jpg" alt="Banking Application" class="w-full h-40 object-cover rounded-md" loading="lazy" decoding="async">
         <h4 class="mt-4 text-xl font-semibold">Banking Application</h4>
         <p class="mt-2">Deployed on EKS with Kubernetes, Argo CD, Prometheus, and Grafana for monitoring and reliability.</p>
         <p class="mt-2 text-sm text-blue-600 hover:underline">
-          <a href="https://www.linkedin.com/posts/talha-aziz-devops_kubernetes-eks-argocd-activity-7316062950505521153-fNuV" target="_blank">
+          <a href="https://www.linkedin.com/posts/talha-aziz-devops_kubernetes-eks-argocd-activity-7316062950505521153-fNuV" target="_blank" rel="noopener noreferrer">
             View on LinkedIn
           </a>
         </p>
@@ -123,11 +136,11 @@
 
       <!-- Project 3: 3-Tier E-commerce App -->
       <div class="bg-gray-100 p-6 rounded-xl hover:shadow-xl transition-shadow duration-300">
-        <img src="assets/images/project3.jpg" alt="3-Tier E-commerce App" class="w-full h-40 object-cover rounded-md">
+        <img src="assets/images/project3.jpg" alt="3-Tier E-commerce App" class="w-full h-40 object-cover rounded-md" loading="lazy" decoding="async">
         <h4 class="mt-4 text-xl font-semibold">3-Tier E-commerce App</h4>
         <p class="mt-2">Developed with React, Node.js, MongoDB, and Docker Compose for a full-stack solution with hands-on automation.</p>
         <p class="mt-2 text-sm text-blue-600 hover:underline">
-          <a href="https://www.linkedin.com/posts/talha-aziz-devops_aws-devops-devsecops-activity-7320154121372631041-0sjs" target="_blank">
+          <a href="https://www.linkedin.com/posts/talha-aziz-devops_aws-devops-devsecops-activity-7320154121372631041-0sjs" target="_blank" rel="noopener noreferrer">
             View on LinkedIn
           </a>
         </p>
@@ -145,40 +158,40 @@
 
       <!-- Certificate 1 -->
       <div class="bg-white p-6 rounded-xl shadow-lg">
-        <a href="assets/images/CloudCyberSec.jpeg" target="_blank">
-          <img src="assets/images/CloudCyberSec.jpeg" alt="Cloud Cybersecurity" class="w-full h-40 object-cover rounded-md">
+        <a href="assets/images/CloudCyberSec.jpeg" target="_blank" rel="noopener noreferrer">
+          <img src="assets/images/CloudCyberSec.jpeg" alt="Cloud Cybersecurity" class="w-full h-40 object-cover rounded-md" loading="lazy" decoding="async">
         </a>
         <p class="mt-2">Sub-Diploma: Cloud & Cybersecurity – Al Nafi International College</p>
       </div>
 
       <!-- Certificate 2 -->
       <div class="bg-white p-6 rounded-xl shadow-lg">
-        <a href="assets/images/DevopsandCloud.jpeg" target="_blank">
-          <img src="assets/images/DevopsandCloud.jpeg" alt="DevOps & Cloud" class="w-full h-40 object-cover rounded-md">
+        <a href="assets/images/DevopsandCloud.jpeg" target="_blank" rel="noopener noreferrer">
+          <img src="assets/images/DevopsandCloud.jpeg" alt="DevOps & Cloud" class="w-full h-40 object-cover rounded-md" loading="lazy" decoding="async">
         </a>
         <p class="mt-2">Diploma in DevOps & Cloud – Al Nafi International College</p>
       </div>
 
       <!-- Certificate 3 -->
       <div class="bg-white p-6 rounded-xl shadow-lg">
-        <a href="assets/images/Internship letter.jpeg" target="_blank">
-          <img src="assets/images/Internship letter.jpeg" alt="Internship Letter" class="w-full h-40 object-cover rounded-md">
+        <a href="assets/images/Internship letter.jpeg" target="_blank" rel="noopener noreferrer">
+          <img src="assets/images/Internship letter.jpeg" alt="Internship Letter" class="w-full h-40 object-cover rounded-md" loading="lazy" decoding="async">
         </a>
         <p class="mt-2">Internship Completion Letter – Al Nafi International College</p>
       </div>
 
       <!-- Certificate 4 -->
       <div class="bg-white p-6 rounded-xl shadow-lg">
-        <a href="assets/images/cert tws.jpeg" target="_blank">
-          <img src="assets/images/cert tws.jpeg" alt="TWS Certificate" class="w-full h-40 object-cover rounded-md">
+        <a href="assets/images/cert tws.jpeg" target="_blank" rel="noopener noreferrer">
+          <img src="assets/images/cert tws.jpeg" alt="TWS Certificate" class="w-full h-40 object-cover rounded-md" loading="lazy" decoding="async">
         </a>
         <p class="mt-2">Certificate – Train With Shubham</p>
       </div>
 
       <!-- Certificate 5 -->
       <div class="bg-white p-6 rounded-xl shadow-lg">
-        <a href="assets/images/sysops.jpeg" target="_blank">
-          <img src="assets/images/sysops.jpeg" alt="SysOps" class="w-full h-40 object-cover rounded-md">
+        <a href="assets/images/sysops.jpeg" target="_blank" rel="noopener noreferrer">
+          <img src="assets/images/sysops.jpeg" alt="SysOps" class="w-full h-40 object-cover rounded-md" loading="lazy" decoding="async">
         </a>
         <p class="mt-2">Sub-Diploma: SysOps – Al Nafi International College</p>
       </div>
@@ -200,12 +213,14 @@
 
   <!-- Footer -->
   <footer class="bg-gray-800 text-white py-6 text-center">
-    <p>&copy; 2025 Talha Aziz. All Rights Reserved.</p>
+    <p>&copy; <span id="year">2025</span> Talha Aziz. All Rights Reserved.</p>
     <div class="mt-4">
       <a href="https://www.linkedin.com/in/talha-aziz-devops" class="hover:text-yellow-500 mx-2">LinkedIn</a>
       <a href="https://github.com/talhaaziz8" class="hover:text-yellow-500 mx-2">GitHub</a>
     </div>
   </footer>
+
+  <script src="script.js" defer></script>
 
 </body>
 </html>
