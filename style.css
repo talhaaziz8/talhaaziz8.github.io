@@ -28,3 +28,7 @@ footer a:hover {
   transform: scale(1.05);
   transition: transform 0.3s;
 }
+/* Profile picture styling */
+.bg-blue-600 img {
+  object-fit: cover;
+}
