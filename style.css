@@ -54,3 +54,12 @@ footer a:hover {
     scroll-behavior: auto;
   }
 }
+/* Certificates hover zoom effect */
+#certificates img {
+  transition: transform 0.3s ease;
+}
+
+#certificates img:hover {
+  transform: scale(1.05);
+}
+
