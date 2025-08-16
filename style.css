@@ -32,3 +32,12 @@ footer a:hover {
 .bg-blue-600 img {
   object-fit: cover;
 }
+/* Hero section profile picture */
+.hero-profile-img {
+  width: 160px;         /* adjust size */
+  height: 160px;
+  border-radius: 50%;   /* makes it circular */
+  object-fit: cover;    /* crops if needed */
+  border: 4px solid white;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
