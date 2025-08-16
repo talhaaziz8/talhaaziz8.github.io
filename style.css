@@ -4,6 +4,7 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden; /* Fix white side scroll */
 }
 
 h1, h2, h3, h4 {
@@ -16,15 +17,6 @@ a {
 
 a:hover {
   color: #fbbf24;
-}
-
-/* Keep palette helpers aligned with Tailwind */
-.bg-blue-600 {
-  background-color: #2563eb;
-}
-
-.bg-yellow-500 {
-  background-color: #fbbf24;
 }
 
 /* Footer links */
@@ -45,11 +37,7 @@ footer a:hover {
   transform: scale(1.05);
 }
 
-/* Hero image helpers */
-.bg-blue-600 img {
-  object-fit: cover;
-}
-
+/* Hero image */
 .hero-profile-img {
   width: 160px;
   height: 160px;
