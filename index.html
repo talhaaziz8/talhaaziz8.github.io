@@ -27,47 +27,47 @@
     }
   </script>
 </head>
-<body class="bg-gray-100 font-roboto">
+<body class="bg-gray-900 text-gray-100 font-roboto overflow-x-hidden">
 
   <!-- Navigation Bar -->
-  <nav class="bg-blue-600 p-4 text-white">
-    <div class="max-w-7xl mx-auto flex justify-between items-center">
+  <nav class="bg-gray-900 p-4 text-white shadow-md fixed top-0 w-full z-50">
+    <div class="container mx-auto px-4 flex justify-between items-center">
       <h1 class="text-2xl font-bold">Talha Aziz</h1>
-      <ul class="flex space-x-6">
-        <li><a href="#about" class="hover:text-gray-200">About</a></li>
-        <li><a href="#education" class="hover:text-gray-200">Education</a></li>
-        <li><a href="#skills" class="hover:text-gray-200">Skills</a></li>
-        <li><a href="#projects" class="hover:text-gray-200">Projects</a></li>
-        <li><a href="#certificates" class="hover:text-gray-200">Certificates</a></li>
-        <li><a href="#contact" class="hover:text-gray-200">Contact</a></li>
+      <ul class="hidden md:flex space-x-6">
+        <li><a href="#about" class="hover:text-yellow-500">About</a></li>
+        <li><a href="#education" class="hover:text-yellow-500">Education</a></li>
+        <li><a href="#skills" class="hover:text-yellow-500">Skills</a></li>
+        <li><a href="#projects" class="hover:text-yellow-500">Projects</a></li>
+        <li><a href="#certificates" class="hover:text-yellow-500">Certificates</a></li>
+        <li><a href="#contact" class="hover:text-yellow-500">Contact</a></li>
       </ul>
     </div>
   </nav>
 
   <!-- Hero / Profile Section -->
-  <section class="bg-blue-600 text-white text-center py-20 flex flex-col items-center">
-    <img src="assets/images/profile.jpg" alt="Talha Aziz" class="w-40 h-40 rounded-full border-4 border-white object-cover mb-6 shadow-lg">
+  <section class="bg-gray-800 text-white text-center py-32 flex flex-col items-center">
+    <img src="assets/images/profile.jpg" alt="Talha Aziz" class="hero-profile-img mb-6">
     <h1 class="text-4xl font-bold">Talha Aziz</h1>
     <h2 class="text-2xl mt-2">DevOps Engineer</h2>
     <p class="mt-4 text-lg max-w-xl">Passionate about automating infrastructure, scaling solutions, and driving operational efficiency in cloud-native environments.</p>
     <div class="mt-8">
-      <a href="mailto:aziz81812@gmail.com" class="bg-yellow-500 text-blue-800 py-2 px-6 rounded-full text-lg hover:bg-yellow-400">Contact Me</a>
+      <a href="mailto:aziz81812@gmail.com" class="bg-yellow-500 text-gray-900 py-2 px-6 rounded-full text-lg hover:bg-yellow-400">Contact Me</a>
     </div>
   </section>
 
   <!-- About Section -->
-  <section id="about" class="py-20 bg-white">
-    <div class="max-w-7xl mx-auto text-center">
+  <section id="about" class="py-20 bg-gray-900 text-center">
+    <div class="container mx-auto px-4">
       <h3 class="text-3xl font-bold">About Me</h3>
-      <p class="mt-4 text-xl">I’m Talha Aziz, a DevOps Engineer with hands-on experience in cloud technologies, automation, and scalability. Internship at Al Nafi International College (May 2024 - Apr 2025) focusing on DevOps, Cloud, and AIOps solutions.</p>
+      <p class="mt-4 text-xl text-gray-300">I’m Talha Aziz, a DevOps Engineer with hands-on experience in cloud technologies, automation, and scalability. Internship at Al Nafi International College (May 2024 - Apr 2025) focusing on DevOps, Cloud, and AIOps solutions.</p>
     </div>
   </section>
 
   <!-- Education Section -->
-  <section id="education" class="py-20 bg-gray-50">
-    <div class="max-w-7xl mx-auto text-center">
+  <section id="education" class="py-20 bg-gray-800 text-center">
+    <div class="container mx-auto px-4">
       <h3 class="text-3xl font-bold">Education</h3>
-      <ul class="mt-6 text-xl space-y-4">
+      <ul class="mt-6 text-xl space-y-4 text-gray-300">
         <li><strong>Diploma in AIOps</strong> – Al Nafi International College (May 2024 - Apr 2025)<br>Sub-diplomas: Cloud, Cybersecurity, SysOps, DevOps, Cloud & AI</li>
         <li><strong>Diploma in DevOps & Cloud</strong> – Train With Shubham</li>
       </ul>
@@ -75,129 +75,100 @@
   </section>
 
   <!-- Skills Section -->
-  <section id="skills" class="bg-gray-100 py-20">
-    <div class="max-w-7xl mx-auto text-center">
+  <section id="skills" class="py-20 bg-gray-900 text-center">
+    <div class="container mx-auto px-4">
       <h3 class="text-3xl font-bold">Technical Skills</h3>
       <div class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="bg-white p-6 rounded-xl shadow-lg">
+        <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
           <h4 class="text-xl font-semibold">Container Technologies</h4>
-          <p class="mt-2">Docker, Kubernetes</p>
+          <p class="mt-2 text-gray-300">Docker, Kubernetes</p>
         </div>
-        <div class="bg-white p-6 rounded-xl shadow-lg">
+        <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
           <h4 class="text-xl font-semibold">Infrastructure as Code</h4>
-          <p class="mt-2">Terraform</p>
+          <p class="mt-2 text-gray-300">Terraform</p>
         </div>
-        <div class="bg-white p-6 rounded-xl shadow-lg">
+        <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
           <h4 class="text-xl font-semibold">CI/CD</h4>
-          <p class="mt-2">Jenkins, GitHub Actions</p>
+          <p class="mt-2 text-gray-300">Jenkins, GitHub Actions</p>
         </div>
-        <div class="bg-white p-6 rounded-xl shadow-lg">
+        <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
           <h4 class="text-xl font-semibold">Monitoring</h4>
-          <p class="mt-2">Prometheus, Grafana</p>
+          <p class="mt-2 text-gray-300">Prometheus, Grafana</p>
         </div>
-        <div class="bg-white p-6 rounded-xl shadow-lg">
+        <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
           <h4 class="text-xl font-semibold">Automation</h4>
-          <p class="mt-2">Ansible, Terraform</p>
+          <p class="mt-2 text-gray-300">Ansible, Terraform</p>
         </div>
-        <div class="bg-white p-6 rounded-xl shadow-lg">
+        <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
           <h4 class="text-xl font-semibold">Programming & Basics</h4>
-          <p class="mt-2">Python, Linux Administration, Cybersecurity Fundamentals, Data Science Fundamentals</p>
+          <p class="mt-2 text-gray-300">Python, Linux, Cybersecurity Fundamentals, Data Science Fundamentals</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Projects Section -->
-  <section id="projects" class="py-20 bg-white">
-    <div class="max-w-7xl mx-auto text-center">
+  <section id="projects" class="py-20 bg-gray-800 text-center">
+    <div class="container mx-auto px-4">
       <h3 class="text-3xl font-bold">My Projects</h3>
       <div class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="bg-gray-100 p-6 rounded-xl hover:shadow-xl transition-shadow duration-300">
+        <div class="bg-gray-900 p-6 rounded-xl hover:shadow-xl transition-shadow duration-300">
           <img src="assets/images/project1.jpg" alt="Retail Store Sample App" class="w-full h-40 object-cover rounded-md">
           <h4 class="mt-4 text-xl font-semibold">Retail Store Sample App</h4>
-          <p class="mt-2">Built with AWS EKS, Terraform, GitHub Actions, and Argo CD for scalable architecture and GitOps workflow.</p>
-          <p class="mt-2 text-sm text-blue-600 hover:underline">
-            <a href="https://www.linkedin.com/posts/talha-aziz-devops_devops-aws-cloudcomputing-activity-7358900615005069312-xFo8" target="_blank" rel="noopener noreferrer">View on LinkedIn</a>
-          </p>
+          <p class="mt-2 text-gray-300">Built with AWS EKS, Terraform, GitHub Actions, and Argo CD for scalable architecture and GitOps workflow.</p>
         </div>
 
-        <div class="bg-gray-100 p-6 rounded-xl hover:shadow-xl transition-shadow duration-300">
+        <div class="bg-gray-900 p-6 rounded-xl hover:shadow-xl transition-shadow duration-300">
           <img src="assets/images/project2.jpg" alt="Banking Application" class="w-full h-40 object-cover rounded-md">
           <h4 class="mt-4 text-xl font-semibold">Banking Application</h4>
-          <p class="mt-2">Deployed on EKS with Kubernetes, Argo CD, Prometheus, and Grafana for monitoring and reliability.</p>
-          <p class="mt-2 text-sm text-blue-600 hover:underline">
-            <a href="https://www.linkedin.com/posts/talha-aziz-devops_kubernetes-eks-argocd-activity-7316062950505521153-fNuV" target="_blank" rel="noopener noreferrer">View on LinkedIn</a>
-          </p>
+          <p class="mt-2 text-gray-300">Deployed on EKS with Kubernetes, Argo CD, Prometheus, and Grafana for monitoring and reliability.</p>
         </div>
 
-        <div class="bg-gray-100 p-6 rounded-xl hover:shadow-xl transition-shadow duration-300">
+        <div class="bg-gray-900 p-6 rounded-xl hover:shadow-xl transition-shadow duration-300">
           <img src="assets/images/project3.jpg" alt="3-Tier E-commerce App" class="w-full h-40 object-cover rounded-md">
           <h4 class="mt-4 text-xl font-semibold">3-Tier E-commerce App</h4>
-          <p class="mt-2">Developed with React, Node.js, MongoDB, and Docker Compose for a full-stack solution with hands-on automation.</p>
-          <p class="mt-2 text-sm text-blue-600 hover:underline">
-            <a href="https://www.linkedin.com/posts/talha-aziz-devops_aws-devops-devsecops-activity-7320154121372631041-0sjs" target="_blank" rel="noopener noreferrer">View on LinkedIn</a>
-          </p>
+          <p class="mt-2 text-gray-300">Developed with React, Node.js, MongoDB, and Docker Compose for a full-stack solution with automation.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Certificates Section -->
-  <section id="certificates" class="py-20 bg-gray-50">
-    <div class="max-w-7xl mx-auto text-center">
+  <section id="certificates" class="py-20 bg-gray-900 text-center">
+    <div class="container mx-auto px-4">
       <h3 class="text-3xl font-bold">Certificates</h3>
       <div class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="bg-white p-6 rounded-xl shadow-lg">
-          <a href="assets/images/CloudCyberSec.jpeg" target="_blank" rel="noopener noreferrer">
-            <img src="assets/images/CloudCyberSec.jpeg" alt="Cloud Cybersecurity" class="w-full h-40 object-cover rounded-md">
-          </a>
-          <p class="mt-2">Sub-Diploma: Cloud & Cybersecurity – Al Nafi International College</p>
+        <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+          <img src="assets/images/CloudCyberSec.jpeg" alt="Cloud Cybersecurity" class="w-full h-40 object-cover rounded-md">
+          <p class="mt-2 text-gray-300">Sub-Diploma: Cloud & Cybersecurity – Al Nafi International College</p>
         </div>
 
-        <div class="bg-white p-6 rounded-xl shadow-lg">
-          <a href="assets/images/DevopsandCloud.jpeg" target="_blank" rel="noopener noreferrer">
-            <img src="assets/images/DevopsandCloud.jpeg" alt="DevOps & Cloud" class="w-full h-40 object-cover rounded-md">
-          </a>
-          <p class="mt-2">Diploma in DevOps & Cloud – Al Nafi International College</p>
+        <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+          <img src="assets/images/DevopsandCloud.jpeg" alt="DevOps & Cloud" class="w-full h-40 object-cover rounded-md">
+          <p class="mt-2 text-gray-300">Diploma in DevOps & Cloud – Al Nafi International College</p>
         </div>
 
-        <div class="bg-white p-6 rounded-xl shadow-lg">
-          <a href="assets/images/Internship letter.jpeg" target="_blank" rel="noopener noreferrer">
-            <img src="assets/images/Internship letter.jpeg" alt="Internship Letter" class="w-full h-40 object-cover rounded-md">
-          </a>
-          <p class="mt-2">Internship Completion Letter – Al Nafi International College</p>
-        </div>
-
-        <div class="bg-white p-6 rounded-xl shadow-lg">
-          <a href="assets/images/cert tws.jpeg" target="_blank" rel="noopener noreferrer">
-            <img src="assets/images/cert tws.jpeg" alt="TWS Certificate" class="w-full h-40 object-cover rounded-md">
-          </a>
-          <p class="mt-2">Certificate – Train With Shubham</p>
-        </div>
-
-        <div class="bg-white p-6 rounded-xl shadow-lg">
-          <a href="assets/images/sysops.jpeg" target="_blank" rel="noopener noreferrer">
-            <img src="assets/images/sysops.jpeg" alt="SysOps" class="w-full h-40 object-cover rounded-md">
-          </a>
-          <p class="mt-2">Sub-Diploma: SysOps – Al Nafi International College</p>
+        <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+          <img src="assets/images/Internship letter.jpeg" alt="Internship Letter" class="w-full h-40 object-cover rounded-md">
+          <p class="mt-2 text-gray-300">Internship Completion Letter – Al Nafi International College</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="py-20 bg-blue-600 text-white">
-    <div class="max-w-7xl mx-auto text-center">
+  <section id="contact" class="py-20 bg-gray-800 text-white text-center">
+    <div class="container mx-auto px-4">
       <h3 class="text-3xl font-bold">Contact Me</h3>
-      <p class="mt-4 text-lg">Feel free to get in touch for collaboration or job opportunities!</p>
+      <p class="mt-4 text-lg text-gray-300">Feel free to get in touch for collaboration or job opportunities!</p>
       <div class="mt-8">
-        <a href="mailto:aziz81812@gmail.com" class="bg-yellow-500 py-2 px-6 rounded-full text-lg hover:bg-yellow-400">Email Me</a>
+        <a href="mailto:aziz81812@gmail.com" class="bg-yellow-500 text-gray-900 py-2 px-6 rounded-full text-lg hover:bg-yellow-400">Email Me</a>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-gray-800 text-white py-6 text-center">
+  <footer class="bg-gray-900 text-gray-400 py-6 text-center">
     <p>&copy; <span id="year">2025</span> Talha Aziz. All Rights Reserved.</p>
     <div class="mt-4">
       <a href="https://www.linkedin.com/in/talha-aziz-devops" class="hover:text-yellow-500 mx-2">LinkedIn</a>
